@@ -2,7 +2,7 @@ import vk_api, json
 import Air_departure, Air_arrival, Train_departure, Train_arrival
 from vk_api.longpoll import VkLongPoll, VkEventType
 
-TOKEN = '8948f2017e31d91b51efab463b5212965653c2f6eebe988549964f0c7e4e11563509601fb54d7e0dca55f'
+TOKEN = ''
 
 # Авторизуемся как сообщество
 vk_session = vk_api.VkApi(token=TOKEN)
